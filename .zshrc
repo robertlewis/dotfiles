@@ -72,8 +72,9 @@ HIST_STAMPS="yyyy.mm.dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-git
-zsh-autosuggestions
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,8 +117,6 @@ alias cls="clear" #shortcut to clear command
 #docker aliases
 alias d="docker"
 alias dps="docker ps"
-
-source=/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ### VISUAL CUSTOMIZATION ###
 DEFAULT_USER=robert
