@@ -117,6 +117,7 @@ alias cls="clear" #shortcut to clear command
 #docker aliases
 alias d="docker"
 alias dps="docker ps"
+alias dls="docker image ls"
 
 ### VISUAL CUSTOMIZATION ###
 DEFAULT_USER=robert
